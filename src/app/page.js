@@ -12,10 +12,10 @@ export default function Home() {
           height={38}
           priority
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+        <ol className="border-8 border-indigo-600   list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
-            <code className="bg-[#fb8500] red:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+            <code className="bg-[#fb8500] bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               src/app/page.js
             </code>
             .
